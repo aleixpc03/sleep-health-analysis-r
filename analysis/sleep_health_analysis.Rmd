@@ -3,10 +3,15 @@ title: "Análisis de la salud del sueño en relación al estilo de vida"
 author: "Santiago López y Aleix Pagès"
 date: "2025-10-24"
 output:
-  pdf_document: default
-  pdf_1_document:
+  pdf_document:
+    # xelatex, y no pdflatex, porque las salidas del análisis contienen
+    # caracteres Unicode (✓, ≥, ±) que pdflatex no sabe componer.
     latex_engine: xelatex
-  html_document: default
+    toc: true
+    toc_depth: 3
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}

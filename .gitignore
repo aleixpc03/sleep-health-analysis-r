@@ -12,6 +12,7 @@ data/Sleep_health_and_lifestyle_dataset_clean.csv
 # Salidas de knitr / LaTeX
 *.log
 *.tex
+!report/*.pdf
 *.aux
 *_files/
 *_cache/

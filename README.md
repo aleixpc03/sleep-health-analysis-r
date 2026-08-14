@@ -77,7 +77,7 @@ Detalles de método que sostienen las conclusiones:
 
 La variable que más separa los grupos es la calidad del sueño, por encima de la edad o el género.
 
-Las figuras del análisis están en `figures/`. El desarrollo completo, con el código y la interpretación de cada contraste, está en `analysis/sleep_health_analysis.Rmd`; tejerlo genera el informe en PDF (ver `report/`).
+Las figuras están en `figures/` y el informe completo —69 páginas con el código, los contrastes y su interpretación— en [`report/sleep_health_analysis.pdf`](report/sleep_health_analysis.pdf).
 
 ## Tecnologías
 
@@ -116,7 +116,8 @@ Rscript R/07_clustering.R           # PCA y clustering
 │   ├── 06_lasso_ridge.R
 │   └── 07_clustering.R
 ├── figures/                        # 11 gráficos del análisis
-├── report/                         # destino del informe al tejer el .Rmd
+├── report/
+│   └── sleep_health_analysis.pdf   # informe renderizado (69 páginas)
 ├── data/                           # dataset de origen (ver data/README.md)
 └── install_dependencies.R
 ```
