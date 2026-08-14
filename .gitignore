@@ -1,0 +1,20 @@
+# El dataset de origen sí se incluye (ver data/README.md).
+# Los derivados generados por los scripts, no.
+data/Sleep_health_and_lifestyle_dataset_clean.csv
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Salidas de knitr / LaTeX
+*.log
+*.tex
+*.aux
+*_files/
+*_cache/
+
+# Sistema
+.DS_Store
